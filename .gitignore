@@ -1,2 +1,49 @@
+# common binary folder names
+bin/
+build/
+
+#Gtags folders
+GPATH
+GRTAGS
+GTAGS
+
+#Ignore .DS_Store
+.DS_Store
+
+# ignore emacs files
+\#*
+*~
+.#*
+\#*\#
+
+# config folder headers
+config/TestConfig.h
+
+# Compiled Object files
+*.slo
+*.lo
 *.o
-fastahack
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
